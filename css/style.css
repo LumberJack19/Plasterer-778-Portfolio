@@ -1,0 +1,73 @@
+.center {
+    padding: 20px 0;
+    text-align: center;
+  }
+  div {
+	background-color: #ffffffbb; /*#f7cc3dbb*/
+	#div-main {
+        background-color: #ffffffbb;
+        }
+        
+        #div-main p {
+        color: #ffffffbb;
+        padding: 70px;
+        }
+    
+        .container {
+        background-color: #f7cc3dbb; /*#cccccc*/  
+        }
+        .row {
+          background-color: #f7cc3dbb; /*#cccccc*/  
+          }
+        .div-special {
+        background-color: #333;
+        }
+        #card-title {
+        background-color: #f7cc3dbb;  
+        }
+        .div-special p {
+        background-color: #f7cc3dbb; /*#cccccc*/
+        }
+        .jumbotron {
+          color: #225858
+        }
+}
+navbar {
+    background-color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+      }
+  h1 {
+		color: #225858;
+		font-size: 33px;
+        font-family: lemon milk; /*bahnschrift; or font of your choice*/
+		}
+    h2 {
+        color: #9e5e33;
+        text-align: center;
+        font-family: bahnschrift;
+        
+    }
+    h3 {
+        color: #1a4550;
+        text-align: center;
+        font-family: reuben;
+    }
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+      /* If the text has multiple lines, add the following: */
+.center p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: constantia;
+  }
