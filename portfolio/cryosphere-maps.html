@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Jack Plasterer - Cryosphere Maps</title>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<!--put your Bootstrap stylesheet links below this comment and above style.css-->
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="../css/style.css">
+		<!--[if IE<9]>
+			<link rel="stylesheet" href="css/style.ie.css">
+		<![endif]-->
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top"> <!-- Creates the navbar -->
+		  <div class="container">
+		    <div class="navbar-header"> <!-- Creates the navbar header -->
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		        <span class="sr-only">Toggle navigation</span> <!-- Used for screen readers for accessibility -->
+						<span class="glyphicon glyphicon-menu-hamburger"></span><span class="menu"> Menu</span>
+		      </button> <!-- Hamburger button for smaller devices -->
+					<a class="navbar-brand" href="../index.html">Jack Plasterer</a> <!-- Your website brand name -->
+		    </div>
+
+		    <div id="navbar" class="collapse navbar-collapse"> <!-- Links to include in navbar -->
+		      <ul class="nav navbar-nav">  <!-- Unordered list for links on navbar -->
+		        <li><a href="../index.html#About">About</a></li>
+						<li><a href="../index.html#Resume">Résumé</a></li>
+		        <li><a href="../index.html#Contact">Contact</a></li>
+		      </ul>
+		    </div> <!-- end .navbar-collapse -->
+		  </div> <!-- end .container -->
+		</nav> <!-- end navigation bar -->
+
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 col-xs-10 col-xs-offset-1">
+					<h2 class="portfolio-title">Mapping the Global Cryosphere</h2>
+					<p class="portfolio-description">
+						The cryosphere — Earth’s frozen water in all its forms — is one of the most visually compelling and scientifically critical subjects in modern geography. This was among my first major projects when I began my GIS and cartography studies. For a class I took in the Spring of 2018, I worked alongside a climatologist at UW-Madison’s Space Science and Engineering Center (SSEC) – a NOAA affiliate office.
+					</p>
+					<p class="portfolio-description">
+						My task was to map out six different layers – Antarctic ice shelves, glaciers, ice sheets, permafrost, sea ice, and seasonal snow cover – in three different projections: the North Pole, South Pole, and globe-extent in a Plate Carrée equirectangular, or WGS84 projection. Except for the permafrost, all layers are in vector format.
+					</p>
+					<p class="portfolio-description">
+						The objective was to show the incremental change of these cryogenic layers over time, which is most evident in the permafrost layer. Together, the maps highlight how projection choice fundamentally shapes how we perceive ice coverage, extent, and the relationship between frozen regions and the rest of the planet.
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 portfolio-image">
+					<img src="../assets/Cryosphere.png" alt="Cryosphere maps of global polar regions in multiple projections" class="center-block img-responsive"/>
+				</div>
+			</div>
+		</div>
+
+		<!--put your external script links here-->
+		<script type="text/javascript" src="../lib/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="../lib/bootstrap.min.js"></script>
+	</body>
+</html>
